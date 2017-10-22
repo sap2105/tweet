@@ -9,7 +9,7 @@ host = "search-twittermaps-l5iltsnatgslozfwthusv36tb4.us-west-2.es.amazonaws.com
 port = 443
 # port = 9200
 
-awsauth = AWS4Auth('AKIAJ7HHWCEARYQMB63Q', 'oRVKo5yx0ceUk9SmYLsTkupo84loy2tAM2kO5gNg','us-west-2','es')
+awsauth = AWS4Auth('kkkk', 'kkkk','us-west-2','es')
 es = Elasticsearch(
         hosts=[{'host': host, 'port': port}],
         use_ssl=True,
